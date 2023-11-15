@@ -170,6 +170,12 @@ $fn = new custom_functions;
                         <span>App Update</span>
                     </a>
                 </li> 
+                <li class="treeview">
+                    <a href="app-finder.php">
+                        <i class="fa fa-search"></i>
+                        <span>App Finder</span>
+                    </a>
+                </li> 
             <!-- /.sidebar -->
             </section>
             <!-- /.sidebar -->
