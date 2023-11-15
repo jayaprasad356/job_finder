@@ -12,25 +12,27 @@ include_once('../includes/crud.php');
 $db = new Database();
 $db->connect();
 
-
-
 $sql = "SELECT * FROM `app_find`";
 $db->sql($sql);
 $res = $db->getResult();
 $num = $db->numRows($res);
-if($num>=1){
- 
+
+if ($num >= 1) {
+    $rows = array();
+    foreach ($res as $row) {
+        $temp['id'] = $row['id'];
+        $temp['title'] = $row['title'];
+        $temp['link'] = $row['link'];
+        $temp['image'] = DOMAIN_URL . $row['image'];
+        $rows[] = $temp;
+    }
     $response['success'] = true;
     $response['message'] = "App Finder Listed Successfully";
-    $response['data'] = $res;
+    $response['data'] = $rows;
     print_r(json_encode($response));
-
-}
-else{
+} else {
     $response['success'] = false;
     $response['message'] = "Data Not Found";
     print_r(json_encode($response));
 }
-
-
 ?>
