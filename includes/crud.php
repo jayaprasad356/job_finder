@@ -28,9 +28,9 @@ class Database
 
     //LIVE
     private $db_host = "localhost";  // Change as required
-    private $db_user = "u762811021_Appsworld";  // Change as required
-    private $db_pass = "Aworld@0111";  // Change as required
-    private $db_name = "u762811021_appsworld";    // Change as required
+    private $db_user = "root";  // Change as required
+    private $db_pass = "";  // Change as required
+    private $db_name = "job_finder";    // Change as required
 
 
     /*

@@ -26,21 +26,11 @@ include "header.php";
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Telugu Calendar - Dashboard</title>
+    <title>Job Finder - Dashboard</title>
 </head>
 
 <body>
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <section class="content-header">
-            <h1>Panchangam</h1>
-            <ol class="breadcrumb">
-                <li>
-                    <a href="Panchangam.php"> <i class="fa fa-calendar"></i> Panchangam</a>
-                </li>
-            </ol>
-        </section>
+   
 
     </div>
     <script>

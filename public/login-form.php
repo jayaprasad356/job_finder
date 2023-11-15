@@ -31,7 +31,7 @@ if (isset($_POST['btnLogin'])) {
     
     // if email and password is not empty, check in database
     if (!empty($email) && !empty($password)) {
-        if($email == 'Kalyan' && $password == 'Kalyan@2000'){
+        if($email == 'admin' && $password == 'admin@123'){
             $_SESSION['id'] = '1';
             $_SESSION['role'] ='admin';
             $_SESSION['username'] = 'username';
@@ -51,8 +51,8 @@ if (isset($_POST['btnLogin'])) {
     <!-- general form elements -->
     <div class='row'>
         <div class="col-md-12 text-center">
-            <img src="dist/img/new.png" height="110">
-            <h3>Telugu Calendar Apps World-Dashboard</h3>
+            <img src="dist/img/" height="110">
+            <h3>Job Finder-Dashboard</h3>
         </div>
         <div class="box box-info col-md-12">
             <div class="box-header with-border">
@@ -66,11 +66,11 @@ if (isset($_POST['btnLogin'])) {
                 <div class="box-body">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username :</label>
-                        <input type="text" name="email" class="form-control" value="<?= defined('ALLOW_MODIFICATION') && ALLOW_MODIFICATION == 0 ? 'Kalyan' : '' ?>" required>
+                        <input type="text" name="email" class="form-control" value="<?= defined('ALLOW_MODIFICATION') && ALLOW_MODIFICATION == 0 ? 'admin' : '' ?>" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Password :</label>
-                        <input type="password" class="form-control" name="password" value="<?= defined('ALLOW_MODIFICATION') && ALLOW_MODIFICATION == 0 ? 'Kalyan@2000' : '' ?>" required>
+                        <input type="password" class="form-control" name="password" value="<?= defined('ALLOW_MODIFICATION') && ALLOW_MODIFICATION == 0 ? 'admin@123' : '' ?>" required>
                     </div>
                     <div class="box-footer">
                         <button type="submit" name="btnLogin" class="btn btn-info pull-left">Login</button>

@@ -15,7 +15,7 @@ $fn = new custom_functions;
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="icon" type="image/ico" href="dist/img/new.png">
+        <link rel="icon" type="image/ico" href="dist/img/">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -113,7 +113,7 @@ $fn = new custom_functions;
                 </span>
                 <!-- logo for regular state and mobile devices -->
                 <span class="logo-lg">
-                    <h3>Telugu Calendar</h3>
+                    <h3>Job Finder</h3>
                 </span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
@@ -160,90 +160,18 @@ $fn = new custom_functions;
             <section class="sidebar">
             <ul class="sidebar-menu">
                 <li class="treeview">
-                    <a href="panchangam.php">
-                        <i class="fa fa-calendar" class="active"></i> <span>Panchangam</span>
+                    <a href="home.php">
+                        <i class="fa fa-home" class="active"></i> <span>Home</span>
                     </a>
                 </li>
-               <!-- <li class="treeview">
-                    <a href="panchangam.php">
-                        <i class="fa fa-calendar" class="active"></i>
-                        <span>Panchangam</span>
+                  <li class="treeview">
+                    <a href="app-update.php">
+                        <i class="fa fa-gear"></i>
+                        <span>App Update</span>
                     </a>
-                </li>-->
-                <!--<li class="treeview">
-                    <a href="bulk-panchangam-upload.php">
-                        <i class="fa fa-calendar"></i>
-                        <span>Bulk Upload Panchangam</span>
-                    </a>
-                </li>-->
-               <!-- <li class="treeview">
-                    <a href="bulk-panchangam-tab-upload.php">
-                        <i class="fa fa-calendar"></i>
-                        <span>Upload Panchangam Tab</span>
-                    </a>
-                </li>-->
-                <li class="treeview">
-                    <a href="festivals.php">
-                        <i class="fa fa-calendar"></i>
-                        <span>Festivals</span>
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-calendar"></i>
-                        <span>Muhurtham</span>
-                        <i class="fa fa-angle-right pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                          <li><a href="muhurtham.php"><i class="fa fa-angle-right"></i>Muhurtham</a></li>
-                          <li><a href="muhurtham-tab.php"><i class="fa fa-angle-right"></i>Muhurtham Tab</a></li>
-
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-calendar"></i>
-                        <span>Rashi</span>
-                        <i class="fa fa-angle-right pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                          <li><a href="rashi.php"><i class="fa fa-angle-right"></i>Rashi</a></li>
-                          <li><a href="rashi-tab.php"><i class="fa fa-angle-right"></i>Rashi Tab</a></li>
-
-                    </ul>
-                </li>
-              <!-- <li class="treeview">
-                    <a href="balli_sasthram.php">
-                        <i class="fa fa-calendar"></i>
-                        <span>Balli Sasthram</span>
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="namakaram.php">
-                        <i class="fa fa-calendar"></i>
-                        <span>Namakaram</span>
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="sissu_janma.php">
-                        <i class="fa fa-calendar"></i>
-                        <span>Sissu Janma</span>
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="audio.php">
-                        <i class="fa fa-headphones"></i>
-                        <span>Audio</span>
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="temples.php">
-                        <i class="fa fa-building"></i>
-                        <span>Temples</span>
-                    </a>
-                </li>
-            </ul>
-            </section>-->
+                </li> 
+            <!-- /.sidebar -->
+            </section>
             <!-- /.sidebar -->
         </aside>
 </body>
